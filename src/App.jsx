@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import ProductDetail from "./pages/ProductDetail";
 import AddProduct from "./pages/AddProduct";
 import UserProfile from "./pages/UserProfile";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import './index.css';
 
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
                         <Route path="/product/:id" element={<ProductDetail />} />
                         <Route path="/add-product" element={<AddProduct />} />
                         <Route path="/profile" element={<UserProfile />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/signup" element={<Signup />} />
                     </Routes>
                 </main>
 
